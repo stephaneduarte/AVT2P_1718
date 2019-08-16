@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta charset="utf-8">
+            <title>Micro Machines</title>
+            <style>
+                body{
+                    margin: 0px;
+                    background-color: #ffffff;
+                    overflow: hidden;
+                    }
+            </style>
+            <script src="js/three.js"></script>
+            <script src="js/GameObject.js"></script>
+            <script src="js/Table.js"></script>
+            <script src="js/MicroMachines.js"></script>
+            <script src="js/Sleigh.js"></script>
+            <script src="js/Present.js"></script>
+            <script src="js/Ball.js"></script>
+            <script src="js/Cheerio.js"></script>
+            <script src="js/Candle.js"></script>
+            <script src="js/Particle.js"></script>
+            <script src="js/TGALoader.js"></script>
+            <script src="js/Stats.js"></script>
+            <script src="js/StereoEffect.js"></script>
+            <script src="js/DeviceOrientationControls.js"></script>
+            <script src="js/OrbitControls.js"></script>
+            <script src="js/Water.js"></script>
+            <script src="js/OBJLoader.js"></script>
+            <script src="js/MTLLoader.js"></script>
+            <script src="js/DDSLoader.js"></script>
+
+    </head>
+    <body>
+        <div id="commands" style="position: absolute; top: 10px; left: 5px; width: 100%; text-align: left; z-index: 100; text-align: left;  font-family: calibri; color: #00A0E3;">Press 'I' for instructions.</div>
+          <div id="drop2" style = "position: absolute; top: 35px; left: 5px; width: 15%; text-align: left; z-index: 100; font-family: calibri; color: #FFFFFF; display: none; background-color: rgba(25, 25, 25, .6); ">
+            <p>W,A,S,D: Drive Boat</p>
+    				<p>1: Ortogonal Camera</p>
+    				<p>2: Fixed Perspective Camera</p>
+    				<p>3: Moving Perspective Camera</p>
+    				<p>Space: Toggle Wireframe</p>
+    				<p>N: Day/Night</p>
+    				<p>C: Candlelight</p>
+    				<p>H: Headlights</p>
+            <p>F: Fog</p>
+            <p>M: Hemisphere light</p>
+            <p>P: Pause</p>
+          </div>
+      <div style = "position: absolute; bottom: 15px; left: 25px; width: 100%; text-align: left; z-index: 100; font-family: calibri; font-size: 25px; color: #FFFFFF; display: block">
+        <p id="score"></p>
+        <p id="lives"></p>
+      </div>
+        <script>
+            init();
+            animate();
+        </script>
+    </body>
+</html>

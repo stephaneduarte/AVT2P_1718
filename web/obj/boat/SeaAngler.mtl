@@ -1,0 +1,30 @@
+# Exported from 3D Builder
+
+newmtl White
+Kd 1.000000 1.000000 1.000000
+map_Kd Fabric1.jpg
+
+newmtl White_0
+Kd 1.000000 1.000000 1.000000
+map_Kd woodhighquality1.jpg
+
+newmtl Material
+Kd 0.109804 0.223529 0.180392
+
+newmtl White_1
+Kd 1.000000 1.000000 1.000000
+
+newmtl Metal
+Kd 0.172549 0.176471 0.184314
+
+newmtl InvDeck
+Kd 0.329412 0.329412 0.329412
+
+newmtl WhiteBase
+Kd 0.909804 1.000000 0.960784
+
+newmtl Blue
+Kd 0.062745 0.078431 0.800000
+
+newmtl Windows
+Kd 0.164706 0.219608 0.258824
